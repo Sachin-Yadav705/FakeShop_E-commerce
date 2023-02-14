@@ -1,0 +1,28 @@
+.single_product {
+  display: flex;
+  justify-content: space-evenly;
+  height: 80vh;
+  margin-top: 60px;
+}
+.pro_img {
+  width: 30rem;
+
+  overflow: hidden;
+}
+.pro_img > img {
+  height: 100%;
+  width: 100%;
+}
+.card_details {
+  width: 40rem;
+}
+.card_details h5 {
+  font-size: 2rem;
+}
+.card_details > .category {
+  font-weight: bold;
+}
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}

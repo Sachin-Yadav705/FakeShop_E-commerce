@@ -1,0 +1,37 @@
+.item_list {
+  width: 70%;
+}
+.item {
+  display: flex;
+  align-items: center;
+}
+.item > img {
+  height: 150px;
+}
+.item_content {
+  margin-left: 25px;
+}
+.PM_btn {
+  width: 80px;
+  /* cursor: pointer; */
+  background: #ddd;
+  color: #111;
+}
+.cart_details {
+  display: flex;
+
+  margin: 50px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.item_summary {
+  background: rgb(196, 194, 194);
+  border: 2px solid whitesmoke;
+  padding: 50px;
+  color: rgb(0, 0, 0);
+  border-radius: 13px;
+  position: fixed;
+  top: 60px;
+  right: 10px;
+  font-size: 18px;
+}
